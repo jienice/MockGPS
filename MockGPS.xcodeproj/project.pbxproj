@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0741BC91FB44CD70007A0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0741BC81FB44CD70007A0EB /* AppDelegate.m */; };
+		A0741BCC1FB44CD70007A0EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0741BCB1FB44CD70007A0EB /* ViewController.m */; };
+		A0741BCF1FB44CD70007A0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0741BCD1FB44CD70007A0EB /* Main.storyboard */; };
+		A0741BD11FB44CD70007A0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0741BD01FB44CD70007A0EB /* Assets.xcassets */; };
+		A0741BD41FB44CD70007A0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0741BD21FB44CD70007A0EB /* LaunchScreen.storyboard */; };
+		A0741BD71FB44CD70007A0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0741BD61FB44CD70007A0EB /* main.m */; };
+		A0741BE11FB44CD70007A0EB /* MockGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0741BE01FB44CD70007A0EB /* MockGPSTests.m */; };
+		A0741BEC1FB44CD70007A0EB /* MockGPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0741BEB1FB44CD70007A0EB /* MockGPSUITests.m */; };
+		A0741BFA1FB44CFD0007A0EB /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A0741BF91FB44CFD0007A0EB /* Location.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0741BDD1FB44CD70007A0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0741BBC1FB44CD70007A0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0741BC31FB44CD70007A0EB;
+			remoteInfo = MockGPS;
+		};
+		A0741BE81FB44CD70007A0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0741BBC1FB44CD70007A0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0741BC31FB44CD70007A0EB;
+			remoteInfo = MockGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0741BC41FB44CD70007A0EB /* MockGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0741BC71FB44CD70007A0EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0741BC81FB44CD70007A0EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0741BCA1FB44CD70007A0EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0741BCB1FB44CD70007A0EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0741BCE1FB44CD70007A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0741BD01FB44CD70007A0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0741BD31FB44CD70007A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0741BD51FB44CD70007A0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0741BD61FB44CD70007A0EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0741BDC1FB44CD70007A0EB /* MockGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0741BE01FB44CD70007A0EB /* MockGPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockGPSTests.m; sourceTree = "<group>"; };
+		A0741BE21FB44CD70007A0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0741BE71FB44CD70007A0EB /* MockGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0741BEB1FB44CD70007A0EB /* MockGPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockGPSUITests.m; sourceTree = "<group>"; };
+		A0741BED1FB44CD70007A0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0741BF91FB44CFD0007A0EB /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0741BC11FB44CD70007A0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0741BD91FB44CD70007A0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0741BE41FB44CD70007A0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0741BBB1FB44CD70007A0EB = {
+			isa = PBXGroup;
+			children = (
+				A0741BC61FB44CD70007A0EB /* MockGPS */,
+				A0741BDF1FB44CD70007A0EB /* MockGPSTests */,
+				A0741BEA1FB44CD70007A0EB /* MockGPSUITests */,
+				A0741BC51FB44CD70007A0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0741BC51FB44CD70007A0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0741BC41FB44CD70007A0EB /* MockGPS.app */,
+				A0741BDC1FB44CD70007A0EB /* MockGPSTests.xctest */,
+				A0741BE71FB44CD70007A0EB /* MockGPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0741BC61FB44CD70007A0EB /* MockGPS */ = {
+			isa = PBXGroup;
+			children = (
+				A0741BF91FB44CFD0007A0EB /* Location.gpx */,
+				A0741BC71FB44CD70007A0EB /* AppDelegate.h */,
+				A0741BC81FB44CD70007A0EB /* AppDelegate.m */,
+				A0741BCA1FB44CD70007A0EB /* ViewController.h */,
+				A0741BCB1FB44CD70007A0EB /* ViewController.m */,
+				A0741BCD1FB44CD70007A0EB /* Main.storyboard */,
+				A0741BD01FB44CD70007A0EB /* Assets.xcassets */,
+				A0741BD21FB44CD70007A0EB /* LaunchScreen.storyboard */,
+				A0741BD51FB44CD70007A0EB /* Info.plist */,
+				A0741BD61FB44CD70007A0EB /* main.m */,
+			);
+			path = MockGPS;
+			sourceTree = "<group>";
+		};
+		A0741BDF1FB44CD70007A0EB /* MockGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0741BE01FB44CD70007A0EB /* MockGPSTests.m */,
+				A0741BE21FB44CD70007A0EB /* Info.plist */,
+			);
+			path = MockGPSTests;
+			sourceTree = "<group>";
+		};
+		A0741BEA1FB44CD70007A0EB /* MockGPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0741BEB1FB44CD70007A0EB /* MockGPSUITests.m */,
+				A0741BED1FB44CD70007A0EB /* Info.plist */,
+			);
+			path = MockGPSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0741BC31FB44CD70007A0EB /* MockGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0741BF01FB44CD70007A0EB /* Build configuration list for PBXNativeTarget "MockGPS" */;
+			buildPhases = (
+				A0741BC01FB44CD70007A0EB /* Sources */,
+				A0741BC11FB44CD70007A0EB /* Frameworks */,
+				A0741BC21FB44CD70007A0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockGPS;
+			productName = MockGPS;
+			productReference = A0741BC41FB44CD70007A0EB /* MockGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0741BDB1FB44CD70007A0EB /* MockGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0741BF31FB44CD70007A0EB /* Build configuration list for PBXNativeTarget "MockGPSTests" */;
+			buildPhases = (
+				A0741BD81FB44CD70007A0EB /* Sources */,
+				A0741BD91FB44CD70007A0EB /* Frameworks */,
+				A0741BDA1FB44CD70007A0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0741BDE1FB44CD70007A0EB /* PBXTargetDependency */,
+			);
+			name = MockGPSTests;
+			productName = MockGPSTests;
+			productReference = A0741BDC1FB44CD70007A0EB /* MockGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0741BE61FB44CD70007A0EB /* MockGPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0741BF61FB44CD70007A0EB /* Build configuration list for PBXNativeTarget "MockGPSUITests" */;
+			buildPhases = (
+				A0741BE31FB44CD70007A0EB /* Sources */,
+				A0741BE41FB44CD70007A0EB /* Frameworks */,
+				A0741BE51FB44CD70007A0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0741BE91FB44CD70007A0EB /* PBXTargetDependency */,
+			);
+			name = MockGPSUITests;
+			productName = MockGPSUITests;
+			productReference = A0741BE71FB44CD70007A0EB /* MockGPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0741BBC1FB44CD70007A0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = XingJie;
+				TargetAttributes = {
+					A0741BC31FB44CD70007A0EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A0741BDB1FB44CD70007A0EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0741BC31FB44CD70007A0EB;
+					};
+					A0741BE61FB44CD70007A0EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0741BC31FB44CD70007A0EB;
+					};
+				};
+			};
+			buildConfigurationList = A0741BBF1FB44CD70007A0EB /* Build configuration list for PBXProject "MockGPS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0741BBB1FB44CD70007A0EB;
+			productRefGroup = A0741BC51FB44CD70007A0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0741BC31FB44CD70007A0EB /* MockGPS */,
+				A0741BDB1FB44CD70007A0EB /* MockGPSTests */,
+				A0741BE61FB44CD70007A0EB /* MockGPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0741BC21FB44CD70007A0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0741BD41FB44CD70007A0EB /* LaunchScreen.storyboard in Resources */,
+				A0741BD11FB44CD70007A0EB /* Assets.xcassets in Resources */,
+				A0741BFA1FB44CFD0007A0EB /* Location.gpx in Resources */,
+				A0741BCF1FB44CD70007A0EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0741BDA1FB44CD70007A0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0741BE51FB44CD70007A0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0741BC01FB44CD70007A0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0741BCC1FB44CD70007A0EB /* ViewController.m in Sources */,
+				A0741BD71FB44CD70007A0EB /* main.m in Sources */,
+				A0741BC91FB44CD70007A0EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0741BD81FB44CD70007A0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0741BE11FB44CD70007A0EB /* MockGPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0741BE31FB44CD70007A0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0741BEC1FB44CD70007A0EB /* MockGPSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0741BDE1FB44CD70007A0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0741BC31FB44CD70007A0EB /* MockGPS */;
+			targetProxy = A0741BDD1FB44CD70007A0EB /* PBXContainerItemProxy */;
+		};
+		A0741BE91FB44CD70007A0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0741BC31FB44CD70007A0EB /* MockGPS */;
+			targetProxy = A0741BE81FB44CD70007A0EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0741BCD1FB44CD70007A0EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0741BCE1FB44CD70007A0EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0741BD21FB44CD70007A0EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0741BD31FB44CD70007A0EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0741BEE1FB44CD70007A0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0741BEF1FB44CD70007A0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0741BF11FB44CD70007A0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6FW88DK2F;
+				INFOPLIST_FILE = MockGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.MockGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0741BF21FB44CD70007A0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6FW88DK2F;
+				INFOPLIST_FILE = MockGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.MockGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0741BF41FB44CD70007A0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6FW88DK2F;
+				INFOPLIST_FILE = MockGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.MockGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockGPS.app/MockGPS";
+			};
+			name = Debug;
+		};
+		A0741BF51FB44CD70007A0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6FW88DK2F;
+				INFOPLIST_FILE = MockGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.MockGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockGPS.app/MockGPS";
+			};
+			name = Release;
+		};
+		A0741BF71FB44CD70007A0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6FW88DK2F;
+				INFOPLIST_FILE = MockGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.MockGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockGPS;
+			};
+			name = Debug;
+		};
+		A0741BF81FB44CD70007A0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6FW88DK2F;
+				INFOPLIST_FILE = MockGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.MockGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockGPS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0741BBF1FB44CD70007A0EB /* Build configuration list for PBXProject "MockGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0741BEE1FB44CD70007A0EB /* Debug */,
+				A0741BEF1FB44CD70007A0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0741BF01FB44CD70007A0EB /* Build configuration list for PBXNativeTarget "MockGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0741BF11FB44CD70007A0EB /* Debug */,
+				A0741BF21FB44CD70007A0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0741BF31FB44CD70007A0EB /* Build configuration list for PBXNativeTarget "MockGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0741BF41FB44CD70007A0EB /* Debug */,
+				A0741BF51FB44CD70007A0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0741BF61FB44CD70007A0EB /* Build configuration list for PBXNativeTarget "MockGPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0741BF71FB44CD70007A0EB /* Debug */,
+				A0741BF81FB44CD70007A0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0741BBC1FB44CD70007A0EB /* Project object */;
+}
